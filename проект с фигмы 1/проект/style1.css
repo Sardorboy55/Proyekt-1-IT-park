@@ -1,0 +1,1004 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    padding-top: 212px;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 50px;
+    color: #fff;
+}
+
+.navbar {
+    height: 100vh;
+    background-image: url(img/Rectangle\ 31.png);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-family: Ribeye;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.btn button {
+    color: #fff;
+    border: 0;
+    padding: 14px 36px;
+    border-radius: 5px;
+    background: rgb(201, 69, 59);
+}
+
+.btn button:hover {
+    background: rgb(201, 69, 59);
+    cursor: pointer;
+}
+
+.content-title {
+    color: rgb(255, 255, 255);
+    font-family: Gelasio;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 804px;
+}
+
+.content-text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: grey;
+    max-width: 458px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+button {
+    padding: 18px 47px;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    background: rgb(201, 69, 59);
+}
+
+button:hover {
+    background: rgb(201, 69, 59);
+    cursor: pointer;
+}
+
+.texts {
+    position: relative;
+    bottom: 900px;
+}
+
+.text1 {
+    position: absolute;
+    width: 346px;
+    height: 60px;
+    top: 1040px;
+    bottom: -412px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    left: 510px;
+}
+
+.text2 {
+    position: absolute;
+    width: 735px;
+    height: 58px;
+    top: 1120px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    left: 320px;
+}
+
+.boxes {
+    position: relative;
+    bottom: 165px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 550px;
+    gap: 31px;
+}
+
+.box1 {
+    transition: all 1s ease;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    width: 360px;
+    cursor: pointer;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+}
+
+.tx1 {
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.txt1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.6;
+}
+
+/* mission 2 */
+
+.texts2 {
+    position: absolute;
+    width: 656px;
+    height: 138px;
+    left: 380px;
+    right: 474px;
+    top: 1868px;
+    bottom: -1474px;
+}
+
+.textbig {
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.textsmall {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.boxes1 {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 400px;
+    gap: 75px;
+    position: relative;
+    right: 1px;
+    top: -205px;
+}
+
+.box0 {
+    opacity: 0.5;
+}
+
+.txts1 {
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.txts2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    padding-left: 25px;
+}
+
+.txts3 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    position: relative;
+    bottom: -5px;
+}
+
+.txts4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    bottom: -20px;
+}
+
+.image1 {
+    position: relative;
+    top: 25px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.alltext {
+    position: relative;
+    bottom: 17px;
+}
+
+.startext {
+    position: relative;
+    left: 190px;
+    bottom: 90px;
+}
+
+.star {
+    position: relative;
+    max-width: 20px;
+    max-height: 20px;
+    left: 50px;
+    bottom: 69px;
+    left: 160px;
+}
+
+.slider {
+    position: relative;
+    width: 75px;
+    height: 5px;
+    left: 680px;
+    top: -190px;
+
+    border-radius: 10px;
+    background: rgb(201, 69, 59);
+}
+
+.slide1 {
+    position: relative;
+    width: 75px;
+    height: 5px;
+    /* left: px; */
+    right: 110px;
+    top: 0px;
+
+    border-radius: 10px;
+    background: rgba(201, 69, 59, 0.1);
+}
+
+.slide2 {
+    position: relative;
+    width: 75px;
+    height: 5px;
+    /* right: 210px; */
+    left: 110px;
+    top: -5px;
+
+    border-radius: 10px;
+    background: rgba(201, 69, 59, 0.1);
+}
+
+.left {
+    rotate: -180deg;
+    position: relative;
+    max-width: 20px;
+    max-height: 20px;
+    top: -7px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.right {
+    position: relative;
+    right: -110px;
+    top: -7px;
+    max-width: 20px;
+    max-height: 20px;
+    cursor: pointer;
+}
+
+.newanim1{
+    transition: all 1s ease;
+}
+
+.newanim1:hover{
+    transform: scale(1.1);
+}
+
+.bigtext1 {
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.smalltext1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.canada1 {
+    cursor: pointer;
+    position: absolute;
+    width: 554px;
+    height: 397px;
+    left: 230px;
+    right: 816px;
+    top: 2794px;
+    bottom: 757px;
+    border-radius: 10px;
+    background: url(canada-banff-national-park-moraine-lake-2);
+}
+
+.canadatext {
+    position: absolute;
+    width: 271px;
+    height: 32px;
+    left: 230px;
+    right: 1099px;
+    top: 3226px;
+    bottom: 690px;
+
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.canadaminitext {
+    position: absolute;
+    width: 470px;
+    height: 151px;
+    left: 230px;
+    right: 900px;
+    top: 3268px;
+    bottom: 529px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    padding-bottom: 500px;
+}
+
+.nametext {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+
+    position: absolute;
+    width: 192px;
+    height: 30px;
+    left: 230px;
+    right: 1178px;
+    top: 3429px;
+    bottom: 489px;
+}
+
+/* tut */
+
+.canada2 {
+    cursor: pointer;
+    position: absolute;
+    width: 263px;
+    height: 201px;
+    left: 816px;
+    right: 521px;
+    top: 2794px;
+    bottom: 953px;
+    border-radius: 10px;
+}
+
+.bigtext2 {
+    position: absolute;
+    width: 226px;
+    height: 30px;
+    left: 1106px;
+    right: 268px;
+    top: 2827px;
+    bottom: 1091px;
+
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.smalltext2 {
+    position: absolute;
+    width: 243px;
+    height: 60px;
+    left: 1106px;
+    right: 251px;
+    top: 2867px;
+    bottom: 1021px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.minitext2 {
+    position: absolute;
+    width: 126.86px;
+    height: 30px;
+    left: 1106px;
+    right: 367.14px;
+    top: 2932px;
+    bottom: 986px;
+    opacity: 0.8;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.canada3 {
+    cursor: pointer;
+    position: absolute;
+    width: 262px;
+    height: 201px;
+    left: 816px;
+    right: 522px;
+    top: 3025px;
+    bottom: 722px;
+}
+
+.bigtext3 {
+    position: absolute;
+    width: 211px;
+    height: 36px;
+    left: 1109px;
+    right: 280px;
+    top: 3055px;
+    bottom: 857px;
+
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.smalltext3 {
+    position: absolute;
+    width: 244px;
+    height: 60px;
+    left: 1109px;
+    right: 247px;
+    top: 3096px;
+    bottom: 792px;
+    opacity: 0.6;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.minitext3 {
+    position: absolute;
+    width: 129px;
+    height: 30px;
+    left: 1109px;
+    right: 362px;
+    top: 3166px;
+    bottom: 752px;
+    opacity: 0.8;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.canada4 {
+    cursor: pointer;
+    position: absolute;
+    width: 262px;
+    height: 201px;
+    left: 816px;
+    right: 522px;
+    top: 3256px;
+    bottom: 491px;
+}
+
+.bigtext4 {
+    position: absolute;
+    width: 164px;
+    height: 30px;
+    left: 1108px;
+    right: 328px;
+    top: 3287px;
+    bottom: 631px;
+
+    color: rgb(0, 0, 0);
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.smalltext4 {
+    position: absolute;
+    width: 247px;
+    height: 60px;
+    left: 1108px;
+    right: 245px;
+    top: 3327px;
+    bottom: 561px;
+    opacity: 0.6;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.minitext4 {
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    left: 1108px;
+    right: 377px;
+    top: 3397px;
+    bottom: 521px;
+    opacity: 0.8;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* end */
+
+.end {
+    position: absolute;
+    width: 1600px;
+    height: 348px;
+    left: 0;
+    right: 0;
+    top: 3599px;
+    bottom: 1px;
+
+    background: rgba(38, 148, 153, 0.04);
+}
+
+.logo1 {
+    position: absolute;
+    width: 124px;
+    height: 36px;
+    left: 231px;
+    right: -169px;
+    top: 70px;
+
+    color: rgb(0, 0, 0);
+    font-family: Ribeye;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text101 {
+    position: absolute;
+    width: 86px;
+    height: 26px;
+    left: 231px;
+    right: -131px;
+    top: 146px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text102 {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 231px;
+    right: -231px;
+    top: 182px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text103 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 524px;
+    right: -518px;
+    top: 70px;
+}
+
+.text104 {
+    position: absolute;
+    width: 47px;
+    height: 24px;
+    left: 524px;
+    right: -497px;
+    top: 114px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text105 {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 524px;
+    right: -524px;
+    top: 158px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text106 {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 524px;
+    right: -515px;
+    top: 202px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text107 {
+    position: absolute;
+    width: 71px;
+    height: 24px;
+    left: 524px;
+    right: -521px;
+    top: 246px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text108 {
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 719px;
+    right: -604px;
+    top: 70px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text109 {
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 719px;
+    right: -719px;
+    top: 114px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text110 {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 719px;
+    right: -674px;
+    top: 158px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text111 {
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    left: 719px;
+    right: -666px;
+    top: 202px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.text112 {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 1010px;
+    right: 420px;
+    top: 70px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.box01 {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0.1;
+
+    position: absolute;
+    width: 195px;
+    height: 44px;
+    left: 1010px;
+    right: 395px;
+    top: 142px;
+}
+
+.text113 {
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    left: 1030px;
+    right: -879px;
+    top: 152px;
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+    opacity: 0.3;
+}
+
+.box02 {
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 1240px;
+    right: 257px;
+    top: 142px;
+
+    border-radius: 5px;
+    background: rgb(201, 69, 59);
+}
+
+.text114 {
+    position: absolute;
+    width: 39px;
+    height: 24px;
+    left: 1272px;
+    right: 289px;
+    top: 152px;
+
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 6%;
+    text-align: left;
+}
+
+.facebook{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 231px;
+right: -90px;
+top: 3827px;
+}
+
+.instagram{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 278px;
+right: -137px;
+top: 3827px;
+bottom: 228px;
+}
+
+.X{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 325px;
+right: -184px;
+top: 3827px;
+bottom: 228px;
+}
+
+.google{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 372px;
+right: -231px;
+top: 3827px;
+bottom: 228px;
+}
